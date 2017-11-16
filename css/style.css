@@ -1,0 +1,57 @@
+@font-face {
+	font-family: Ubuntu;
+	src: local(Ubuntu), url(../fonts/Ubuntu.ttf);
+}
+@font-face {
+	font-family: Ubuntu Light;
+	src: local(Ubuntu Light), url(../fonts/UbuntuLight.ttf);
+}
+@font-face {
+	font-family: Bree Serif;
+	src: local(Bree Serif), url(../fonts/BreeSerif.ttf);
+}
+@font-face {
+	font-family: Bebas Neue;
+	src: local(Bebas Neue), url(../fonts/BebasNeue.ttf);
+}
+@font-face {
+	font-family: Bebas;
+	src: local(Bebas), url(../fonts/Bebas.ttf);
+}
+html, body {
+	margin: auto;
+    padding: 0px;
+	background: #f4f4f4;
+}
+h1 {
+	color: #515862;
+	text-align: center;
+	font-size: 70px;
+	font-weight: normal;
+	font-family: Bebas, arial;
+	margin: 40px;
+}
+h2 {
+	color: #2190c1;
+	text-align: center;
+	font-size: 50px;
+	font-weight: normal;
+	font-family: Bebas Neue, arial;
+	margin: 25px;
+}
+h3 {
+	color: #2190c1;
+	text-align: center;
+	font-size: 20px;
+	font-weight: normal;
+	font-family: Bree Serif, serif;
+	margin: 20px;
+}
+h4 {
+	color: #666;
+	text-align: center;
+	font-weight: normal;
+	font-family: Bree Serif, serif;
+	font-size: 18px;
+	margin: 0;
+}

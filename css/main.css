@@ -1,0 +1,99 @@
+main {
+	font-family: Ubuntu, arial;
+}
+#portfolio {
+	display: block;
+	background: url(../images/portfolio.png);
+	line-height: 295px;
+	text-decoration: none;
+	color: #cccece;
+	font-size: 80px;
+	font-family: Bebas Neue;
+	text-align: center;
+}
+#whoarewe div {
+	margin: 0 50px;
+	text-align: center;
+}
+#four {
+	border: 1px solid #dcdcdc;
+	justify-content: center;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+}
+#four div {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+#four div div {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: flex-end;
+	font-family: Ubuntu Light;
+	border: 1px solid #dcdcdc;
+	width: 230px;
+	height: 315px;
+	text-align: center;
+	font-size: 13px;
+	line-height: 25px;
+}
+#team {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+#team>div {
+	display: flex;
+	flex-direction: column;
+	width: 380px;
+	text-align: center;
+	padding: 10px;
+	border: 1px solid #ccc;
+    background-color: white;
+}
+#team span {
+	color: #94979b;
+	font-size: 13px;
+	font-weight: bold;
+}
+#team img {
+	width: 130px;
+	height: 130px;
+}
+#team p {
+	text-align: left;
+	font-size: 13px;
+	line-height: 25px;
+}
+#team>div>div {
+	display: flex;
+	flex-direction: row;
+}
+#team div div div {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 100%;
+	align-items: center;
+}
+#team div div div img {
+	width: 130px;
+	height: 24px;
+	margin: 10px;
+}
+#team div div div h2 {
+	font-size: 32px;
+	margin: 0;
+}
+.left {
+	box-shadow: -10px -10px #d3d3d3;
+	margin: 20px 15px 20px 20px;
+}
+.right {
+	box-shadow: 10px -10px #d3d3d3;
+	margin: 20px 20px 20px 15px;
+}

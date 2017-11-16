@@ -1,0 +1,94 @@
+footer {
+	background-color: #2e3e4f;
+	color: #a3afb2;
+	font-family: Ubuntu, arial;
+	font-size: 12px;
+	line-height: 20px;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	padding-bottom: 25px;
+}
+footer>div {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+footer section {
+	margin: 0 20px;
+	display: flex;
+	flex-direction: column;
+}
+footer h2 {
+	color: #f98561;
+	font-size: 30px;
+	text-align: left;
+	margin-left: 0;
+}
+footer a {
+	color: #2190c1;
+	text-decoration: none;
+}
+footer label {
+	display: block;
+	font-size: 13px;
+	color: #2387b5;
+	margin-bottom: 10px;
+}
+hr {
+	border-style: solid; 
+	border-color: #556270; 
+	border-width: 1px 0 0 0;
+	margin-left: 0;
+	margin-right: 0;
+}
+#recproj {
+	display: flex;
+	flex-direction: column;
+}
+#recproj>div {
+	display: flex;
+}
+#recproj div div {
+	display: flex;
+	flex-direction: column;
+}
+#email {
+	width: 245px;
+	border-radius: 3px;
+}
+#submit {
+	display: block;
+	width: 75px;
+	height: 27px;
+	margin: 17px 0 0 auto;
+	background-color: #2190c1;
+	color: white;
+	text-decoration: none;
+	border-radius: 3px;
+	border: none;
+}
+#submit:active {
+	box-shadow:
+		0 0 1px rgba(0,0,0,.5) inset,
+		0 2px 3px rgba(0,0,0,.5) inset,
+		0 1px 1px rgba(255,255,255,.1);
+}
+.pic {
+	margin: 5px 10px 5px 0;
+}
+#contact>div {
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+#contact>div>div {
+	display: flex;
+}
+#contact div div div {
+	line-height: 15px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}

@@ -1,0 +1,49 @@
+header {
+	font-family: Ubuntu;
+	font-size: 14pt;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	text-align: center;
+}
+#logo {
+	align-self: center;
+}
+#nav {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+}
+header a {
+	line-height: 80px;
+	display: block;
+    width: 90px;
+	text-decoration: none;
+	color: #515862;
+	height: 80px;
+}
+header a:hover, nav a:active {
+	color: white;
+	background: url(../images/navbutton.png);
+	background-size: 100% 100%;
+}
+#blog div {
+	background-color: #f98561;
+	height: 40%;
+	width: 75%;
+	align-self: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+#blog {
+	display: flex;
+	justify-content: center;
+	color: white;
+}
+#blog:hover {
+	color: #515862;
+}
+#search {
+	width: 200px;
+}
